@@ -409,3 +409,74 @@ width: 50%;
   .tariffs li {
     font-size: 16px;
   }
+.expertise{
+  padding: 230px 0 230px 0;
+  position:relative;
+  background: linear-gradient(254.72deg, rgba(225,255,255,.276) -114.85%, rgba(255,255,255,0) 69.04%), #040613;
+}
+
+.expertise:before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(./img/druplicon-2.svg) no-repeat right bottom;
+  background-size: contain;
+  z-index: 10;
+}
+
+.expertise h2{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 65px;
+  color: #fff;
+  opacity: 100%;
+  font-family: Montserrat;
+}
+
+.expertise-block-description{
+  border-left: 3px solid #f14d34;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  min-height: 88px;
+  height: 100%;
+  line-height: 22px;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(256,256,256,.7);
+  width: 260px;
+  font-family: Montserrat;
+}
+.expertise-collumn{
+  margin-bottom: 30px;
+}
+
+.expertise a{
+  color: #f14d34;
+}
+       .expertise .col-md-6{
+    min-width: 100%;
+  }
+
+  .expertise .container .row .row {
+    min-width: 750px;
+  }
+      .expertise h2{
+    font-size: 32px;
+    margin-bottom: 65px;
+}
+
+.expertise {
+    padding: 380px 0 150px;
+}
+        .expertise h2{
+    font-size: 42px;
+    margin-bottom: 65px;
+}
+      .expertise .col-md-6{
+  min-width: 50%;
+}
