@@ -1503,3 +1503,120 @@ video{
     margin-bottom: 0;
   }
   
+#team h2{
+  padding-top: 50px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: initial;
+  text-align: center;
+}
+
+.all-team{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  font-family: 'Montserrat';
+}
+
+.all-team .col-xs-6 {
+  width: 50%;
+}
+
+.all-team .col-sm-6{
+  min-width: 360px;
+  left: 140px;
+}
+
+.all-team{
+  justify-content: left;
+}
+
+#team h2 {
+  font-size: 32px;
+  margin-bottom:80px ;
+}
+
+.all-team .col-sm-6{
+    left: 0;
+}
+
+#team h2 {
+    font-size: 42px;
+}
+
+.all-team{
+    justify-content: left;
+}
+
+.list-team{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 1140px;
+}
+
+#team h2{
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 42px;
+  color: #050c33;
+  margin-bottom: 80px;
+  margin-top: 110px;
+}
+
+
+.person{
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+.person-photo{
+  border-radius: 0;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 25px;
+}
+
+.person-photo img {
+  width: 90.5%;
+  height: 90.5%;
+}
+
+.person-name a{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.37;
+  color: #050c33;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.person-info{
+  padding: 0;
+  color: #505570;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.37;
+  margin-bottom: 5px;
+}
+
+.person-photo{
+  max-width: 100%;
+  max-height: 100%;
+}
+.person-photo img {
+  width: 80%;
+  height: 80%;
+}
+.person-info{
+  max-width: 260px;
+}
+.person-photo img {
+    width: 100%;
+    height: 100%;
+}
+.person-info{
+    max-width: 330px;
+}
