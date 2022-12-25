@@ -1320,4 +1320,186 @@ video{
   .laptop-block{
       width: 50%;
   }}
+    .footer {
+    background: linear-gradient(254.72deg,rgba(255,255,255,.276) -114.85%,rgba(255,255,255,0) 69.04%),
+    url(img/D-flying.svg) no-repeat top center,url(img/D-footer.svg) no-repeat bottom right,#040613;
+    padding: 25px 0 54px;
+    color: #fff;
+    font-family: Montserrat;
+    margin-top: 35px;
+    background-size: cover,165px,140px;
+  }
+  .footer-block-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.215;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .footer-block-description{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.55;
+    color: rgba(256,256,256,.7);
+    min-width: 345px;
+  }
+  .footer-block-contacts ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .footer-block-contacts ul li{
+    margin-bottom: 12px;
+  }
+  .footer-contacts-phone a{
+    position: relative;
+    padding-left: 40px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    line-height: 1.1;
+  }
+  .footer-contacts-phone a:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    left: 3px;
+    bottom: 4px;
+    background: url(img/phone.svg) no-repeat center;
+    background-size: contain;
+    opacity: .8;
+  }
+  .footer-contacts-mail a{
+    text-decoration: underline;
+    position: relative;
+    padding-left: 40px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.1;
+  }
+  .footer-contacts-mail a:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 24px;
+    height: 18px;
+    left: 0;
+    bottom: 0;
+    background: url(img/mail.svg) no-repeat center;
+    background-size: contain;
+    opacity: .8;
+  }
+  
+  
+  .form-block{
+    width: 480px;
+    max-width: 100%;
+    margin-left: auto;
+  }
+  .form-item{
+    margin-bottom: 7px;
+  }
+  .form-item .footer-form-input::placeholder, .form-item textarea::placeholder {
+    color: #fff;
+    font-size: 14px;
+  }
+  .footer-form-label{
+    display:block;
+  }
+  .footer-form-input{
+    width: 480px;
+    max-width: 100%;
+    margin-bottom: 7px; 
+    background: transparent;
+    border: 1px solid rgba(256,256,256,.3);
+    border-radius: 5px;
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 18px 24px;
+    color: #fff;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+  
+  .footer-form-input:focus{
+    border-color: #f14d34;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #f44336;
+  }
+  
+  .form-item textarea {
+    height: 134px;
+  }
+  .footer-contact-button{
+    display: block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    padding: 20px 10px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #f14d34;
+    border-radius: 5px;
+    letter-spacing: 0.06em;
+    color: #fff;
+    background: #f14d34;
+    margin: 0 0;
+    margin-top: 7px;
+  }
+  
+  .footer-contact-button:hover{
+  background-color: transparent;
+  transition: background-color 300ms;
+  }
+  
+  .footer-social-links{
+    position: static;
+    padding: 0;
+    margin-top: 71px;
+  }
+  .footer-social-links::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgba(256,256,256,.3);
+  }
+  .footer-links{
+    padding-top: 56px;
+  }
+  .social-links{
+    margin-bottom: 15px;
+  }
+  .f-b-s-links{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .links-item{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    border: 2px solid #f14d34;
+    border-radius: 5px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background: #f14d34;
+    text-align: center;
+  }
+
+  .footer-links p{
+    margin-bottom: 0;
+  }
   
