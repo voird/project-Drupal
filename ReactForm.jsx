@@ -131,7 +131,7 @@ class MainForm extends React.Component {
                         this.props.submitStart();
                         console.log(JSON.stringify(values));
                         const prom = fetch(
-                            'https://formcarry.com/s/Vf5gz_Dw-z',
+                            'https://formcarry.com/s/Dg67n7vay',
                             {
                                 method: 'POST',
                                 mode: 'cors',
