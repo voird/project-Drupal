@@ -39,7 +39,7 @@ $(document).ready(function () {
         $.ajax({
             type: "POST",
             dataType: "json",
-            url: "https://formcarry.com/s/Vf5gz_Dw-z",
+            url: "https://formcarry.com/s/Dg67n7vay",
             data: data,
             success: function (response) {
                 if ((response.status == "success") && (!grecaptcha.getResponse())) {
